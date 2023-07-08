@@ -4,9 +4,9 @@ public class VarargsDemo {
 
     public void addData(int... value) {
 
-        for (int i = 0; i < value.length; i++) {
+        for (int j : value) {
 
-            System.out.println(value[i]);
+            System.out.println(j);
         }
 
 
