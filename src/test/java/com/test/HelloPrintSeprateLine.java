@@ -1,4 +1,4 @@
-package com.java;
+package com.test;
 
 public class HelloPrintSeprateLine {
 
