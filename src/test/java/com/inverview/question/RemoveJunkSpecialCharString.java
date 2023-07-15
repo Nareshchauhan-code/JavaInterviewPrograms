@@ -1,6 +1,6 @@
 package com.inverview.question;
 
-public class RemoveJunkSpecialCharsinaString {
+public class RemoveJunkSpecialCharString {
 
     public static void main(String[] args) {
 
@@ -18,7 +18,5 @@ public class RemoveJunkSpecialCharsinaString {
         System.out.println(afterRemoving1);
 
 
-
-        
     }
 }
