@@ -48,7 +48,6 @@ public class StringBuildInMethods {
 
 		String value2 = "a";
 		String value3 = "A";
-		// By Using ==
 
 		System.out.println("Comparing String by == Operator : "+value2 == value3);
 
