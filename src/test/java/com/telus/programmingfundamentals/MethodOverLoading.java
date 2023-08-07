@@ -2,30 +2,30 @@ package com.telus.programmingfundamentals;
 
 public class MethodOverLoading {
 
-	// 1. By changing the number of arguments
-	public static int multiply(int a , int b){
-		int result = a * b;
-		return result;		
-	}
-	
-	public static int multiply(int a , int b , int c) {
-		int result = a * b * c;
-		return result;
-	}
-	
-	// 2 By changing the data type of the method
-	public static float multiply(float a, float b){
-		float result = a * b;
-		return result;		
-	}
-			
-	public static void main(String[] args) {
+    // 1. By changing the number of arguments
+    public static int additionOfTotalSpent(int rent, int electricBill) {
+        int result = rent + electricBill;
+        return result;
+    }
 
-	System.out.println(multiply(50 ,20));
-	System.out.println(multiply(10 , 50 , 60));
-	System.out.println(multiply(7.5f , 10.25f));		
-	System.out.println(multiply(10 , 15.50f));		
-		
-	}
+    public static int additionOfTotalSpent(int rent, int electricBill, int maintenanceCharges) {
+        int result = rent + electricBill + maintenanceCharges;
+        return result;
+    }
+
+    // 2 By changing the data type of the method
+    public static float additionOfTotalSpent(int rent, int electricBill, float maintenanceCharges) {
+        float result = rent + electricBill + maintenanceCharges;
+        return result;
+    }
+
+    public static void main(String[] args) {
+
+        System.out.println(additionOfTotalSpent(12000, 4000));
+        System.out.println(additionOfTotalSpent(12000, 5000, 3000));
+        System.out.println(additionOfTotalSpent(12000, 5000, 3000.50f));
+
+
+    }
 
 }

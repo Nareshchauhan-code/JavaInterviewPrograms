@@ -42,6 +42,30 @@ public class JavaArraysAssignment {
         System.out.println(list);
 
 
+        String arrNames[] = {"Naresh", "Kapil", "Harsh", "Puneet"};
+        System.out.println(arrNames[3]);
+
+        // Display
+        for (String iArr : arrNames) {
+            System.out.println(iArr);
+        }
+
+        String arrNumList2 = Arrays.toString(arrNames);
+        System.out.println(arrNumList2);
+
+        System.out.println("********************Methods***********************");
+
+        // Present or not
+        boolean word = Arrays.asList(arrNames).contains("Kapil");
+        System.out.println(word);
+
+        // split() method : Split with space
+        String msg = "Welcome to Java";
+
+        String arrWords[] = msg.split(" ");
+        for (String iArr : arrWords) {
+            System.out.println(iArr);
+        }
 
     }
 }
