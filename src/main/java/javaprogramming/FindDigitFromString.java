@@ -33,7 +33,7 @@ public class FindDigitFromString {
         System.out.println("Please Enter the Value");
         String value = sc.next();
 
-        StringDigit2 stringDigit = new StringDigit2();
+        FindDigitFromString stringDigit = new FindDigitFromString();
         stringDigit.checkDigit(value);
 
 

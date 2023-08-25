@@ -1,6 +1,6 @@
 package javaprogramming;
 
-public class UpperCaseCount2 {
+public class UpperCaseCountbyWrapperClass {
 
     public static void upperCaseCount(String value) {
 
